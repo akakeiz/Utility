@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="exe">
+      <UniqueIdentifier>{d1fc2e4a-2073-4b73-921f-a333770a989a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LogAnalyzer">
+      <UniqueIdentifier>{9926baa0-2a7c-48e4-92c6-9ee1ad7b0590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="[Header]">
+      <UniqueIdentifier>{bcf34958-2f27-42a4-a978-77a53bebcf3f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TextSearcher.h">
+      <Filter>LogAnalyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>[Header]</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>[Header]</Filter>
+    </ClInclude>
+    <ClInclude Include="FileLoader.h">
+      <Filter>LogAnalyzer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LogAnalyzer.cpp">
+      <Filter>exe</Filter>
+    </ClCompile>
+    <ClCompile Include="TextSearcher.cpp">
+      <Filter>LogAnalyzer</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>[Header]</Filter>
+    </ClCompile>
+    <ClCompile Include="FileLoader.cpp">
+      <Filter>LogAnalyzer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
